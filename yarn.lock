@@ -3993,7 +3993,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-react-class@^15.5.1, create-react-class@^15.5.2:
+create-react-class@^15.5.1:
   version "15.6.3"
   resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
   integrity sha512-M+/3Q6E6DLO6Yx3OwrWjwHBnvfXXYA7W+dFjt/ZDBemHO1DDZhsalX/NUtnTYclN6GfnBDRh4qRHjcDHmlJBJg==
@@ -4916,7 +4916,7 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
-doctrine@1.5.0:
+doctrine@1.5.0, doctrine@^1.2.2:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-1.5.0.tgz#379dce730f6166f76cefa4e6707a159b02c5a6fa"
   integrity sha1-N53Ocw9hZvds76TmcHoVmwLFpvo=
@@ -5521,6 +5521,14 @@ eslint-plugin-prettier@^3.0.0:
   integrity sha512-4g11opzhqq/8+AMmo5Vc2Gn7z9alZ4JqrbZ+D4i8KlSyxeQhZHlmIrY8U9Akf514MoEhogPa87Jgkq87aZ2Ohw==
   dependencies:
     prettier-linter-helpers "^1.0.0"
+
+eslint-plugin-react-perf@^2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-perf/-/eslint-plugin-react-perf-2.0.9.tgz#984982b1b6099fca68608ccb0ba5692ffbcf2fd8"
+  integrity sha512-znVvK7hZ+c7vR5aF4GjF0ki6usavJrPZ2OADylolNfFGA+iLYyNQogjFSRVKmyJ2R9IdZB3M+Ch5TtWoTOSBpw==
+  dependencies:
+    doctrine "^1.2.2"
+    jsx-ast-utils "^1.3.3"
 
 eslint-plugin-react@^7.11.1:
   version "7.11.1"
@@ -8602,6 +8610,11 @@ jss@^9.8.7:
     symbol-observable "^1.1.0"
     warning "^3.0.0"
 
+jsx-ast-utils@^1.3.3:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/jsx-ast-utils/-/jsx-ast-utils-1.4.1.tgz#3867213e8dd79bf1e8f2300c0cfc1efb182c0df1"
+  integrity sha1-OGchPo3Xm/Ho8jAMDPwe+xgsDfE=
+
 jsx-ast-utils@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/jsx-ast-utils/-/jsx-ast-utils-2.0.1.tgz#e801b1b39985e20fffc87b40e3748080e2dcac7f"
@@ -9568,10 +9581,10 @@ mini-html-webpack-plugin@^0.2.3:
   dependencies:
     webpack-sources "^1.1.0"
 
-mini-store@^1.0.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/mini-store/-/mini-store-1.1.2.tgz#cc150e0878e080ca58219d47fccefefe2c9aea3e"
-  integrity sha512-2gU6dRzyv/79jrPw/SLtnj6EAdYlktW10e5jPqyIVeFgyFHxcP1BoqAH5Uf5WfKXbTdeHgJ+fuoAFP4falptdw==
+mini-store@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/mini-store/-/mini-store-2.0.0.tgz#0843c048d6942ce55e3e78b1b67fc063022b5488"
+  integrity sha512-EG0CuwpQmX+XL4QVS0kxNwHW5ftSbhygu1qxQH0pipugjnPkbvkalCdQbEihMwtQY6d3MTN+MS0q+aurs+RfLQ==
   dependencies:
     hoist-non-react-statics "^2.3.1"
     prop-types "^15.6.0"
@@ -9780,6 +9793,11 @@ multimatch@^2.1.0:
     array-union "^1.0.1"
     arrify "^1.0.0"
     minimatch "^3.0.0"
+
+mutationobserver-shim@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/mutationobserver-shim/-/mutationobserver-shim-0.3.2.tgz#f4d5dae7a4971a2207914fb5a90ebd514b65acca"
+  integrity sha1-9NXa56SXGiIHkU+1qQ69UUtlrMo=
 
 mute-stream@0.0.7, mute-stream@~0.0.4:
   version "0.0.7"
@@ -11708,20 +11726,21 @@ rc-animate@2.x:
     raf "^3.4.0"
     react-lifecycles-compat "^3.0.4"
 
-rc-menu@6.2.11:
-  version "6.2.11"
-  resolved "https://registry.yarnpkg.com/rc-menu/-/rc-menu-6.2.11.tgz#56bed3ed840c2d1fdc9c9dda7bc71e975acd21d4"
-  integrity sha512-aKvLMgKl+3G/ar46nCzTWVBmd0A9BjmwZJYTj7pICbAPkC2xSiYfKq+ywJd/QJO57sj7Sz7OD62LDnlOg99VNw==
+rc-menu@7.4.14:
+  version "7.4.14"
+  resolved "https://registry.yarnpkg.com/rc-menu/-/rc-menu-7.4.14.tgz#28de792ce7c7dc0dec8ec5f72c9a6b367132815b"
+  integrity sha512-S+EwNU0D1qON88140zLWaU2rRWlhJR5tpmHIkEqqcrK+tBVQLaK6u6tEySvTqhIZlhj9blGpE6AnCMjz5U03pQ==
   dependencies:
     babel-runtime "6.x"
     classnames "2.x"
-    create-react-class "^15.5.2"
     dom-scroll-into-view "1.x"
-    mini-store "^1.0.2"
+    mini-store "^2.0.0"
+    mutationobserver-shim "^0.3.2"
     prop-types "^15.5.6"
     rc-animate "2.x"
     rc-trigger "^2.3.0"
     rc-util "^4.1.0"
+    resize-observer-polyfill "^1.5.0"
 
 rc-trigger@^2.3.0:
   version "2.6.2"
